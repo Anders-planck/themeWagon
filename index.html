@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<!-- saved from url=(0046)https://technext.github.io/thegrill/index.html -->
+<html lang="en" class=" js csstransitions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="https://technext.github.io/thegrill/assets/img/ico/favicon.ico">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://technext.github.io/thegrill/assets/img/ico/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://technext.github.io/thegrill/assets/img/ico/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://technext.github.io/thegrill/assets/img/ico/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" href="https://technext.github.io/thegrill/assets/img/ico/apple-touch-icon-57x57.png">
+
+    <title>The Grill by Distinctive Themes</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="./bootstrap.min.css" rel="stylesheet">
+    <link href="./animate.css" rel="stylesheet">
+    <link href="./plugins.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="./style.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="./font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="./pe-icons.css" rel="stylesheet">
+
+<style id="pretty-embed-style">.pretty-embed{position:relative;cursor:pointer;display:block}.pretty-embed img{width:100%;height:auto}.pretty-embed iframe{border:0 solid transparent}.pretty-embed:after{display:block;content:"";position:absolute;top:50%;margin-top:-19px;left:50%;margin-left:-27px;width:54px;height:38px;background-image:url(data:image/png;base64,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);-webkit-background-size:cover;background-size:cover}.pretty-embed.play:after{display:none}.pretty-embed:hover:after{background-image:url(data:image/png;base64,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)}</style><script data-avast-pam="y" type="text/javascript" name="AVAST_PAM_submitInjector">(function _submitInjector() {
+        var f = document.querySelectorAll("form")[1]; // eslint-disable-line no-undef
+        if (!f._avast_submit) {
+          f._avast_submit = f.submit;
+        }
+        try {
+          Object.defineProperty(f, "submit", {
+            get: function get() {
+              return function (prev_submit) {
+                prev_submit.call(this);
+
+                if (this._avast_inside_submit) {
+                  return;
+                }
+                this._avast_inside_submit = true;
+
+                var evt = document.createEvent("CustomEvent");
+                evt.initEvent("scriptsubmit", true, true); // bubbling & cancelable
+                this.dispatchEvent(evt);
+
+                delete this._avast_inside_submit;
+              }.bind(this, this._avast_submit);
+            },
+            set: function set(submitFunc) {
+              this._avast_submit = submitFunc;
+            }
+          });
+        } catch (ex) {
+          // ignored
+        }
+      })();</script><script data-avast-pam="y" type="text/javascript" name="AVAST_PAM_submitInjector">(function _submitInjector() {
+        var f = document.querySelectorAll("form")[1]; // eslint-disable-line no-undef
+        if (!f._avast_submit) {
+          f._avast_submit = f.submit;
+        }
+        try {
+          Object.defineProperty(f, "submit", {
+            get: function get() {
+              return function (prev_submit) {
+                prev_submit.call(this);
+
+                if (this._avast_inside_submit) {
+                  return;
+                }
+                this._avast_inside_submit = true;
+
+                var evt = document.createEvent("CustomEvent");
+                evt.initEvent("scriptsubmit", true, true); // bubbling & cancelable
+                this.dispatchEvent(evt);
+
+                delete this._avast_inside_submit;
+              }.bind(this, this._avast_submit);
+            },
+            set: function set(submitFunc) {
+              this._avast_submit = submitFunc;
+            }
+          });
+        } catch (ex) {
+          // ignored
+        }
+      })();</script></head>
+
+<body id="page-top" class="regular-navigation  pace-done" style="">
+
+
+    <div class="master-wrapper">
+
+        <div class="preloader" style="display: none;"><div class="pace  pace-inactive"><div class="pace-progress" data-progress-text="100%" data-progress="99" style="width: 100%;">
+  <div class="pace-progress-inner"></div>
+</div>
+<div class="pace-activity"></div></div>
+            <div class="preloader-img">
+            	<span class="loading-animation animate-flicker"><img src="./loading.GIF" alt="loading"></span>
+            </div>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-fixed-top fadeInDown wow" data-wow-delay="0.2s">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navigation">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand smoothie" href="https://technext.github.io/thegrill/index.html">THE <span class="theme-accent-color">GRILL</span></a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="main-navigation">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="https://technext.github.io/thegrill/index.html#about" class="page-scroll">About Us</a></li>  
+                        <li><a href="https://technext.github.io/thegrill/index.html#about" class="page-scroll">Specials</a></li>    
+                        <li><a href="https://technext.github.io/thegrill/index.html#the-menu" class="page-scroll">Our Menu</a></li>      
+                        <li><a href="https://technext.github.io/thegrill/index.html#about" class="page-scroll">Book a Table</a></li>                 
+                        <li class="dropdown">
+                            <a href="https://technext.github.io/thegrill/index.html#" class="dropdown-toggle" data-hover="dropdown" data-toggle="dropdown">Extras <span class="pe-7s-angle-down"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a href="https://technext.github.io/thegrill/404.html">404</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="https://technext.github.io/thegrill/index.html#search"><i class="fa fa-search"></i></a></li>
+                    </ul>
+
+                </div>
+                <!-- /.navbar-collapse -->         
+
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+
+        <div id="search-wrapper">
+            <button type="button" class="close">×</button>
+            <form>
+                <input type="search" value="" placeholder="Enter Search Term">
+                <button type="submit" class="btn btn-primary">Search</button>
+            </form>
+        </div>
+
+        <!-- Header -->
+        <header id="headerwrap" class="backstretched fullheight">
+            <div class="container-fluid fullheight">
+                <div class="vertical-center row" style="padding-top: 438.75px;">
+                    <div class="col-sm-1 pull-left text-center slider-control match-height" style="display: block; height: 156px;">
+                        <a href="https://technext.github.io/thegrill/index.html#" class="prev-bs-slide vertical-center wow fadeInLeft" data-wow-delay="0.8s" style="padding-top: 46.75px;"><i class="fa fa-long-arrow-left"></i></a>
+                    </div>
+                    <div class="intro-text text-center smoothie col-sm-10 match-height" style="display: block; height: 156px;">                    
+                        <div class="intro-heading wow fadeIn heading-font" data-wow-delay="0.8s"><img src="./intro-logo.png"></div>              
+                    </div>
+                    <div class="col-sm-1 pull-right text-center slider-control match-height" style="display: block; height: 156px;">
+                        <a href="https://technext.github.io/thegrill/index.html#" class="next-bs-slide vertical-center wow fadeInRight" data-wow-delay="0.8s" style="padding-top: 46.75px;"><i class="fa fa-long-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section id="about" class="top-border-me">
+            <div class="section-inner">
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 text-center mb100">                        
+                            <h2 class="section-heading">A <span class="theme-accent-color">Warm</span> Welcome</h2>
+                            <hr class="thin-hr">
+                            <h3 class="section-subheading secondary-font">Were very happy to see you.</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-5 col-md-offset-1">
+                                <h2 class="mb50">About <span class="theme-accent-color">DuJour</span></h2>
+                                <p class="lead">Fish don't fry in the kitchen and beans don't burn on the grill. Took a whole lotta tryin' just to get up that hill. Love exciting and new. Come aboard were expecting you. Love life's sweetest reward Let it flow it floats back to you.</p>
+                                <p>Here he comes Here comes Speed Racer. He's a demon on wheels. Believe it or not I'm walking on air. I never thought I could feel so free. Flying away on a wing and a prayer.</p>
+                            </div>
+
+                            <div class="col-md-5">
+                                <h2 class="mb50">Latest <span class="theme-accent-color">Awards</span></h2>
+                                <p class="lead">Fish don't fry in the kitchen and beans don't burn on the grill. Took a whole lotta tryin' just to get up that hill. Love exciting and new. Come aboard were expecting you. Love life's sweetest reward Let it flow it floats back to you.</p>
+                                <p>Here he comes Here comes Speed Racer. He's a demon on wheels. Believe it or not I'm walking on air. I never thought I could feel so free. Flying away on a wing and a prayer.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-6 nopadding-lr dark-wrapper opaqued background-cover left-half" style="background-image: url(&#39;assets/img/bg/bg10.jpg&#39;);">
+                    <div class="dark-opaqued-half section-inner pad-sides-60 match-height" data-mh="promo-inner" style="display: block; height: 749px;">
+                        <h3 class="mb50">Love <span class="theme-accent-color">Steak?</span></h3>
+                        <p class="lead mb50">Conveniently leverage other's distinctive expertise and backend metrics. Progressively harness intuitive systems and ethical niches. Continually drive extensible benefits vis-a-vis leading-edge meta-services. Conveniently leverage existing market-driven outsourcing vis-a-vis e-business process improvements. Intrinsicly extend quality interfaces with intermandated innovation.</p>
+                        <div class="spacer-180"></div>
+                        <p class="mt30"><a href="https://technext.github.io/thegrill/index.html#contact" class="btn btn-primary btn-red page-scroll">Book Now</a></p>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 nopadding-lr dark-wrapper opaqued background-cover right-half" style="background-image: url(&#39;assets/img/bg/bg5.jpg&#39;);">
+                    <div class="dark-opaqued-half section-inner pad-sides-60 match-height text-right" data-mh="promo-inner" style="display: block; height: 749px;">
+                        <h3 class="mb50">Create <span class="theme-accent-color">Memories</span></h3>
+                        <p class="lead mb50">Conveniently leverage other's distinctive expertise and backend metrics. Progressively harness intuitive systems and ethical niches. Continually drive extensible benefits vis-a-vis leading-edge meta-services. Conveniently leverage existing market-driven outsourcing vis-a-vis e-business process improvements. Intrinsicly extend quality interfaces with intermandated innovation.</p>
+                        <div class="spacer-180"></div>
+                        <p class="mt30"><a href="https://technext.github.io/thegrill/index.html#contact" class="btn btn-primary btn-white page-scroll">View Menu</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="dark-wrapper top-border-me opaqued parallax" data-parallax="scroll" data-image-src="assets/img/bg/bg4.jpg" data-speed="0.8">
+            <div class="section-inner">
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 text-center mb100">                        
+                            <h2 class="section-heading">Our <span class="theme-accent-color">Upcoming</span> Events</h2>
+                            <hr class="thin-hr">
+                            <h3 class="section-subheading secondary-font">Try us for yourself today.</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="wow fadeIn" data-wow-delay="0.2s">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12" role="tabpanel">
+                                <div class="text-center">
+                                    <!-- Nav tabs -->
+                                    <ul class="nav nav-justified icon-tabs" id="nav-tabs" role="tablist">
+                                        <li role="presentation" class="active">
+                                            <a href="https://technext.github.io/thegrill/index.html#dustin" aria-controls="dustin" role="tab" data-toggle="tab">
+                                                <span class="tabtitle heading-font">Steak Night</span>                                                
+                                                <span class="tabtitle small"><p class="lead">Tuesdays.</p></span>
+                                            </a>
+                                        </li>
+                                        <li role="presentation" class="">
+                                            <a href="https://technext.github.io/thegrill/index.html#daksh" aria-controls="daksh" role="tab" data-toggle="tab">
+                                               <span class="tabtitle heading-font">Curry Club</span>
+                                               <span class="tabtitle small"><p class="lead">Thursdays.</p></span>
+                                            </a>
+                                        </li>
+                                        <li role="presentation" class="">
+                                            <a href="https://technext.github.io/thegrill/index.html#anna" aria-controls="anna" role="tab" data-toggle="tab">
+                                                <span class="tabtitle heading-font">Sunday Special</span>
+                                                <span class="tabtitle small"><p class="lead">Sundays.</p></span>
+                                            </a>
+                                        </li>
+                                        <li role="presentation" class="">
+                                            <a href="https://technext.github.io/thegrill/index.html#wafer" aria-controls="wafer" role="tab" data-toggle="tab">
+                                                <span class="tabtitle heading-font">Italian Cuisine</span>
+                                                <span class="tabtitle small"><p class="lead">April 25th</p></span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="mt60">
+                                    <!-- Tab panes -->
+                                    <div class="tab-content" id="tabs-collapse">            
+                                        <div role="tabpanel" class="tab-pane fade in active" id="dustin">
+                                            <div class="tab-inner">                    
+                                                <h2 class="secondary-font mb30">Every Tuesday we offer the best steaks for all you meat lovers out there.</h2>  
+                                                <p>Is post each that just leaf no. He connection interested so we an sympathize advantages. To said is it shed want do. Occasional middletons everything so to. Have spot part for his quit may. End sitting shewing who saw besides son musical adapted. Contrasted interested eat alteration pianoforte sympathize was. He families believed if no elegance interest surprise an. It abode wrong miles an so delay plate.</p>         
+                                            </div>
+                                        </div>
+                                        
+                                        <div role="tabpanel" class="tab-pane fade" id="daksh">
+                                            <div class="tab-inner">                    
+                                                <h2 class="secondary-font mb30">Like something spicy, then this is for you!</h2>  
+                                                <p>Is post each that just leaf no. He connection interested so we an sympathize advantages. To said is it shed want do. Occasional middletons everything so to. Have spot part for his quit may. End sitting shewing who saw besides son musical adapted. Contrasted interested eat alteration pianoforte sympathize was. He families believed if no elegance interest surprise an. It abode wrong miles an so delay plate.</p>         
+                                            </div>
+                                        </div>
+                                        
+                                        <div role="tabpanel" class="tab-pane fade" id="anna">
+                                            <div class="tab-inner">                    
+                                                <h2 class="secondary-font mb30">Who doesnt love a roast?</h2>  
+                                                <p>Is post each that just leaf no. He connection interested so we an sympathize advantages. To said is it shed want do. Occasional middletons everything so to. Have spot part for his quit may. End sitting shewing who saw besides son musical adapted. Contrasted interested eat alteration pianoforte sympathize was. He families believed if no elegance interest surprise an. It abode wrong miles an so delay plate.</p>         
+                                            </div>
+                                        </div>
+                                        
+                                        <div role="tabpanel" class="tab-pane fade" id="wafer">
+                                            <div class="tab-inner">                    
+                                                <h2 class="secondary-font mb30">Try something new and our special event.</h2>  
+                                                <p>Is post each that just leaf no. He connection interested so we an sympathize advantages. To said is it shed want do. Occasional middletons everything so to. Have spot part for his quit may. End sitting shewing who saw besides son musical adapted. Contrasted interested eat alteration pianoforte sympathize was. He families believed if no elegance interest surprise an. It abode wrong miles an so delay plate.</p>         
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="the-menu">
+            <div class="section-inner">
+
+                 <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 text-center mb100">
+                            <h2 class="section-heading">Browse <span class="theme-accent-color">The</span> Menu</h2>
+                            <hr class="thin-hr">
+                            <h3 class="section-subheading secondary-font">Your tastebuds will thank you.</h3>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="container">
+
+                    <div class="row mb100">
+                      <div class="col-md-4 wow fadeIn">
+                        <h2 class="mb50"><span class="heading-font text-uppercase">Fresh Pizza</span></h2>
+                        <h3>Lorem Ipsum <span class="theme-accent-color">$8.95</span></h3>
+                        <p>No phone no lights no motor car not a single luxury. Like Robinson Crusoe it's primitive as can be.</p>
+                        <h3>Lorem Ipsum <span class="theme-accent-color">$8.95</span></h3>
+                        <p>No phone no lights no motor car not a single luxury. Like Robinson Crusoe it's primitive as can be.</p>
+                        <h3>Lorem Ipsum <span class="theme-accent-color">$8.95</span></h3>
+                        <p>No phone no lights no motor car not a single luxury. Like Robinson Crusoe it's primitive as can be.</p>
+                        <h3>Lorem Ipsum <span class="theme-accent-color">$8.95</span></h3>
+                        <p>No phone no lights no motor car not a single luxury. Like Robinson Crusoe it's primitive as can be.</p>
+                      </div>
+
+                      <div class="col-md-4 wow fadeIn">
+                        <h2 class="mb50"><span class="heading-font text-uppercase">Famility Favourites</span></h2>
+                        <h3>Lorem Ipsum <span class="theme-accent-color">$8.95</span></h3>
+                        <p>No phone no lights no motor car not a single luxury. Like Robinson Crusoe it's primitive as can be.</p>
+                        <h3>Lorem Ipsum <span class="theme-accent-color">$8.95</span></h3>
+                        <p>No phone no lights no motor car not a single luxury. Like Robinson Crusoe it's primitive as can be.</p>
+                        <h3>Lorem Ipsum <span class="theme-accent-color">$8.95</span></h3>
+                        <p>No phone no lights no motor car not a single luxury. Like Robinson Crusoe it's primitive as can be.</p>
+                        <h3>Lorem Ipsum <span class="theme-accent-color">$8.95</span></h3>
+                        <p>No phone no lights no motor car not a single luxury. Like Robinson Crusoe it's primitive as can be.</p>
+                      </div>
+
+                      <div class="col-md-4 wow fadeIn">
+                        <h2 class="mb50"><span class="heading-font text-uppercase">Catch of the Day</span></h2>
+                        <h3>Lorem Ipsum <span class="theme-accent-color">$8.95</span></h3>
+                        <p>No phone no lights no motor car not a single luxury. Like Robinson Crusoe it's primitive as can be.</p>
+                        <h3>Lorem Ipsum <span class="theme-accent-color">$8.95</span></h3>
+                        <p>No phone no lights no motor car not a single luxury. Like Robinson Crusoe it's primitive as can be.</p>
+                        <h3>Lorem Ipsum <span class="theme-accent-color">$8.95</span></h3>
+                        <p>No phone no lights no motor car not a single luxury. Like Robinson Crusoe it's primitive as can be.</p>
+                        <h3>Lorem Ipsum <span class="theme-accent-color">$8.95</span></h3>
+                        <p>No phone no lights no motor car not a single luxury. Like Robinson Crusoe it's primitive as can be.</p>
+                      </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6 wow fadeIn">
+                            <h2 class="mb50"><span class="heading-font text-uppercase">Starters</span></h2>
+                            <div class="food-menu-item">
+                                <div class="row">
+                                    <div class="col-xs-3">
+                                        <img src="./meal4.jpg" class="img-responsive">
+                                    </div>
+                                    <div class="col-xs-9">
+                                        <h3>Lorem Ipsum <span class="theme-accent-color">$8.95</span></h3>
+                                        <p>No phone no lights no motor car not a single luxury. Like Robinson Crusoe it's primitive as can be. Like Robinson Crusoe it's primitive as can be</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="food-menu-item">
+                                <div class="row">
+                                    <div class="col-xs-3">
+                                        <img src="./meal1.jpg" class="img-responsive">
+                                    </div>
+                                    <div class="col-xs-9">
+                                        <h3>Lorem Ipsum <span class="theme-accent-color">$8.95</span></h3>
+                                        <p>No phone no lights no motor car not a single luxury. Like Robinson Crusoe it's primitive as can be. Like Robinson Crusoe it's primitive as can be</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="food-menu-item">
+                                <div class="row">
+                                    <div class="col-xs-3">
+                                        <img src="./meal2.jpg" class="img-responsive">
+                                    </div>
+                                    <div class="col-xs-9">
+                                        <h3>Lorem Ipsum <span class="theme-accent-color">$8.95</span></h3>
+                                        <p>No phone no lights no motor car not a single luxury. Like Robinson Crusoe it's primitive as can be. Like Robinson Crusoe it's primitive as can be</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="food-menu-item">
+                                <div class="row">
+                                    <div class="col-xs-3">
+                                        <img src="./meal3.jpg" class="img-responsive">
+                                    </div>
+                                    <div class="col-xs-9">
+                                        <h3>Lorem Ipsum <span class="theme-accent-color">$8.95</span></h3>
+                                        <p>No phone no lights no motor car not a single luxury. Like Robinson Crusoe it's primitive as can be. Like Robinson Crusoe it's primitive as can be</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 wow fadeIn">
+                            <h2 class="mb50"><span class="heading-font text-uppercase">Main Course</span></h2>
+                            <div class="food-menu-item">
+                                <div class="row">
+                                    <div class="col-xs-3">
+                                        <img src="./meal3.jpg" class="img-responsive">
+                                    </div>
+                                    <div class="col-xs-9">
+                                        <h3>Lorem Ipsum <span class="theme-accent-color">$8.95</span></h3>
+                                        <p>No phone no lights no motor car not a single luxury. Like Robinson Crusoe it's primitive as can be. Like Robinson Crusoe it's primitive as can be</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="food-menu-item">
+                                <div class="row">
+                                    <div class="col-xs-3">
+                                        <img src="./meal5.jpg" class="img-responsive">
+                                    </div>
+                                    <div class="col-xs-9">
+                                        <h3>Lorem Ipsum <span class="theme-accent-color">$8.95</span></h3>
+                                        <p>No phone no lights no motor car not a single luxury. Like Robinson Crusoe it's primitive as can be. Like Robinson Crusoe it's primitive as can be</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="food-menu-item">
+                                <div class="row">
+                                    <div class="col-xs-3">
+                                        <img src="./meal6.jpg" class="img-responsive">
+                                    </div>
+                                    <div class="col-xs-9">
+                                        <h3>Lorem Ipsum <span class="theme-accent-color">$8.95</span></h3>
+                                        <p>No phone no lights no motor car not a single luxury. Like Robinson Crusoe it's primitive as can be. Like Robinson Crusoe it's primitive as can be</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="food-menu-item">
+                                <div class="row">
+                                    <div class="col-xs-3">
+                                        <img src="./meal7.jpg" class="img-responsive">
+                                    </div>
+                                    <div class="col-xs-9">
+                                        <h3>Lorem Ipsum <span class="theme-accent-color">$8.95</span></h3>
+                                        <p>No phone no lights no motor car not a single luxury. Like Robinson Crusoe it's primitive as can be. Like Robinson Crusoe it's primitive as can be</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="dark-wrapper opaqued parallax" data-parallax="scroll" data-image-src="assets/img/bg/bg4.jpg" data-speed="0.8">
+            <div class="section-inner">
+                 <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 text-center mb100">
+                            <h2 class="section-heading">Our <span class="theme-accent-color">Acclaimed</span> Chefs</h2>
+                            <hr class="thin-hr">
+                            <h3 class="section-subheading secondary-font">Dedicated to excellence.</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="wow fadeIn" data-wow-delay="0.2s">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <ul class="owl-carousel-paged testimonial-owl wow fadeIn list-unstyled owl-carousel owl-theme" data-items="3" data-items-tablet="[768,2]" data-items-mobile="[479,1]" style="display: block; opacity: 1;">
+                                    <div class="owl-wrapper-outer"><div class="owl-wrapper" style="width: 3040px; left: 0px; display: block; transition: all 1000ms ease 0s; transform: translate3d(0px, 0px, 0px);"><div class="owl-item" style="width: 380px;"><li>
+                                        <div class="row hover-item">
+                                            <div class="col-xs-12">
+                                                <img src="./1.jpg" class="img-responsive smoothie" alt="">
+                                            </div>
+                                            <div class="col-xs-12 overlay-item-caption smoothie"></div>
+                                            <div class="col-xs-12 hover-item-caption smoothie">
+                                                <div class="vertical-center" style="padding-top: 185.25px;">
+                                                    <h3 class="smoothie"><a href="https://technext.github.io/thegrill/single-portfolio.html" title="view project">John Doe</a></h3>
+                                                    <ul class="smoothie list-inline social-links wow fadeIn" data-wow-delay="0.2s">
+                                                        <li>
+                                                            <a href="https://technext.github.io/thegrill/index.html#"><i class="fa fa-twitter"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="https://technext.github.io/thegrill/index.html#"><i class="fa fa-pinterest"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="https://technext.github.io/thegrill/index.html#"><i class="fa fa-dribbble"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="https://technext.github.io/thegrill/index.html#"><i class="fa fa-facebook"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="https://technext.github.io/thegrill/index.html#"><i class="fa fa-behance"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="https://technext.github.io/thegrill/index.html#"><i class="fa fa-linkedin"></i></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <span class="col-xs-12 theme-accent-color-bg hover-bar"></span>
+                                        </div>
+                                    </li></div><div class="owl-item" style="width: 380px;"><li>
+                                        <div class="row hover-item">
+                                            <div class="col-xs-12">
+                                                <img src="./2.jpg" class="img-responsive smoothie" alt="">
+                                            </div>
+                                            <div class="col-xs-12 overlay-item-caption smoothie"></div>
+                                            <div class="col-xs-12 hover-item-caption smoothie">
+                                                <div class="vertical-center" style="padding-top: 185px;">
+                                                    <h3 class="smoothie"><a href="https://technext.github.io/thegrill/single-portfolio.html" title="view project">Barry Scott</a></h3>
+                                                    <ul class="smoothie list-inline social-links wow fadeIn" data-wow-delay="0.2s">
+                                                        <li>
+                                                            <a href="https://technext.github.io/thegrill/index.html#"><i class="fa fa-twitter"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="https://technext.github.io/thegrill/index.html#"><i class="fa fa-pinterest"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="https://technext.github.io/thegrill/index.html#"><i class="fa fa-dribbble"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="https://technext.github.io/thegrill/index.html#"><i class="fa fa-facebook"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="https://technext.github.io/thegrill/index.html#"><i class="fa fa-behance"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="https://technext.github.io/thegrill/index.html#"><i class="fa fa-linkedin"></i></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <span class="theme-accent-color-bg hover-bar"></span>
+                                            </div>
+                                        </div>
+                                    </li></div><div class="owl-item" style="width: 380px;"><li>
+                                        <div class="row hover-item">
+                                            <div class="col-xs-12">
+                                                <img src="./3.jpg" class="img-responsive smoothie" alt="">
+                                            </div>
+                                            <div class="col-xs-12 overlay-item-caption smoothie"></div>
+                                            <div class="col-xs-12 hover-item-caption smoothie">
+                                                <div class="vertical-center" style="padding-top: 185px;">
+                                                    <h3 class="smoothie"><a href="https://technext.github.io/thegrill/single-portfolio.html" title="view project">Tom Smooth</a></h3>
+                                                    <ul class="smoothie list-inline social-links wow fadeIn" data-wow-delay="0.2s">
+                                                        <li>
+                                                            <a href="https://technext.github.io/thegrill/index.html#"><i class="fa fa-twitter"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="https://technext.github.io/thegrill/index.html#"><i class="fa fa-pinterest"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="https://technext.github.io/thegrill/index.html#"><i class="fa fa-dribbble"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="https://technext.github.io/thegrill/index.html#"><i class="fa fa-facebook"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="https://technext.github.io/thegrill/index.html#"><i class="fa fa-behance"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="https://technext.github.io/thegrill/index.html#"><i class="fa fa-linkedin"></i></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <span class="theme-accent-color-bg hover-bar"></span>
+                                            </div>
+                                        </div>
+                                    </li></div><div class="owl-item" style="width: 380px;"><li>
+                                        <div class="row hover-item">
+                                            <div class="col-xs-12">
+                                                <img src="./4.jpg" class="img-responsive smoothie" alt="">
+                                            </div>
+                                            <div class="col-xs-12 overlay-item-caption smoothie"></div>
+                                            <div class="col-xs-12 hover-item-caption smoothie">
+                                                <div class="vertical-center" style="padding-top: 185px;">
+                                                    <h3 class="smoothie"><a href="https://technext.github.io/thegrill/single-portfolio.html" title="view project">Harvey Wallace</a></h3>
+                                                    <ul class="smoothie list-inline social-links wow fadeIn" data-wow-delay="0.2s">
+                                                        <li>
+                                                            <a href="https://technext.github.io/thegrill/index.html#"><i class="fa fa-twitter"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="https://technext.github.io/thegrill/index.html#"><i class="fa fa-pinterest"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="https://technext.github.io/thegrill/index.html#"><i class="fa fa-dribbble"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="https://technext.github.io/thegrill/index.html#"><i class="fa fa-facebook"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="https://technext.github.io/thegrill/index.html#"><i class="fa fa-behance"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="https://technext.github.io/thegrill/index.html#"><i class="fa fa-linkedin"></i></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <span class="theme-accent-color-bg hover-bar"></span>
+                                            </div>
+                                        </div>
+                                    </li></div></div></div>
+                                    
+                                    
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="dark-wrapper opaqued parallax" data-parallax="scroll" data-image-src="assets/img/bg/bg10.jpg" data-speed="0.8">
+            <div class="section-inner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 text-center mb100">
+                            <h2 class="section-heading">Our <span class="theme-accent-color">Happy</span> Customers</h2>
+                            <hr class="thin-hr">
+                            <h3 class="section-subheading secondary-font">Satisfaction, everytime.</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <ul class="owl-carousel-paged testimonial-owl wow fadeIn list-unstyled owl-carousel owl-theme" data-items="1" data-items-desktop="[1200,1]" data-items-desktop-small="[980,1]" data-items-tablet="[768,1]" data-items-mobile="[479,1]" style="display: block; opacity: 1;">
+                                <div class="owl-wrapper-outer"><div class="owl-wrapper" style="width: 4560px; left: 0px; display: block; transition: all 1000ms ease 0s; transform: translate3d(0px, 0px, 0px);"><div class="owl-item" style="width: 1140px;"><li>
+                                    <div class="row">
+                                        <div class="col-xs-8 col-xs-offset-2 item-caption">
+                                            <div class="row">
+                                                <div class="col-sm-2">
+                                                    <img src="./small1.jpg" class="img-responsive testimonial-author" alt="">
+                                                </div>
+                                                <div class="col-sm-10">                                                
+                                                    <h4>Charles Davies</h4>
+                                                    <p>Compellingly customize highly efficient outsourcing with premium quality vectors. Conveniently target customer directed relationships after highly efficient process improvements.</p>
+                                                    <ul class="list-inline">
+                                                        <li><i class="fa fa-star theme-accent-color"></i></li>
+                                                        <li><i class="fa fa-star theme-accent-color"></i></li>
+                                                        <li><i class="fa fa-star theme-accent-color"></i></li>
+                                                        <li><i class="fa fa-star theme-accent-color"></i></li>
+                                                        <li><i class="fa fa-star theme-accent-color"></i></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li></div><div class="owl-item" style="width: 1140px;"><li>
+                                    <div class="row">
+                                        <div class="col-xs-8 col-xs-offset-2 item-caption">
+                                            <div class="row">
+                                                <div class="col-sm-2">
+                                                    <img src="./small1.jpg" class="img-responsive testimonial-author" alt="">
+                                                </div>
+                                                <div class="col-sm-10">                                                
+                                                    <h4>Charles Davies</h4>
+                                                    <p>Compellingly customize highly efficient outsourcing with premium quality vectors. Conveniently target customer directed relationships after highly efficient process improvements.</p>
+                                                    <ul class="list-inline">
+                                                        <li><i class="fa fa-star theme-accent-color"></i></li>
+                                                        <li><i class="fa fa-star theme-accent-color"></i></li>
+                                                        <li><i class="fa fa-star theme-accent-color"></i></li>
+                                                        <li><i class="fa fa-star theme-accent-color"></i></li>
+                                                        <li><i class="fa fa-star theme-accent-color"></i></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li></div></div></div>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="dark-wrapper opaqued parallax" data-parallax="scroll" data-image-src="assets/img/bg/bg1.jpg" data-speed="0.8">
+            <div class="section-inner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 text-center mb100">
+                            <h2 class="section-heading">Book <span class="theme-accent-color">Your</span> Table</h2>
+                            <hr class="thin-hr">
+                            <h3 class="section-subheading secondary-font">Satisfaction, everytime.</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row mb100"> 
+                        <!-- Address, Phone & Email -->
+                        <div class="col-md-5 col-md-offset-1 wow fadeIn">
+                            <h3 class="mb30">Address</h3>
+                            <p class="lead">Florence Building</p>
+                            <p class="lead">Kings Square<br>
+                            London, LDN1 23 </p>
+                            <p class="lead">+448754 658 048<br>
+                        </p></div>
+
+                        <div class="col-md-5 col-sm-7 wow fadeIn">
+                            <h3 class="mb30">Opening Times</h3>
+                            <div class="row">
+                              <div class="col-xs-5">
+                                <ul class="list-unstyled weekdays">
+                                  <li>Monday</li>
+                                  <li>Tuesday</li>
+                                  <li>Wednesday</li>
+                                  <li>Thursday</li>
+                                  <li>Friday</li>
+                                  <li>Saturday</li>
+                                  <li>Sunday</li>
+                                </ul>
+                              </div>
+                              <div class="col-xs-7">
+                                <ul class="list-unstyled">
+                                  <li>11:00 AM - 11:00 PM</li>
+                                  <li>11:00 AM - 11:00 PM</li>
+                                  <li>11:00 AM - 11:00 PM</li>
+                                  <li>11:00 AM - 11:00 PM</li>
+                                  <li>11:00 AM - 1:00 AM</li>
+                                  <li>11:00 AM - 1:00 AM</li>
+                                  <li>11:00 AM - 1:00 AM</li>
+                                </ul>
+                              </div>
+                            </div>
+                        </div>                
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-10 col-md-offset-1">
+                            <div class="row">
+                                <div id="message" class="col-md-12"></div>
+                                <form method="post" action="https://technext.github.io/thegrill/sendemail.php" id="contactform" class="form-group main-contact-form col-md-12 wow fadeIn AVAST_PAM_nonloginform" data-wow-delay="0.2s">
+                                    <input type="text" class="form-control col-md-4" name="name" placeholder="Your Name *" id="name" required="" data-validation-required-message="Please enter your name.">
+                                    <input type="text" class="form-control col-md-4" name="email" placeholder="Your Email *" id="email" required="" data-validation-required-message="Please enter your email address.">
+                                    <input type="text" class="form-control col-md-4" name="website" placeholder="Your URL *" id="website" required="" data-validation-required-message="Please enter your web address.">
+                                    <textarea name="comments" class="form-control" id="comments" placeholder="Your Message *" required="" data-validation-required-message="Please enter a message."></textarea>
+                                    <input class="btn btn-primary btn-white mt30 pull-right" type="submit" name="submit" value="Submit">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    	</section>
+
+        <section>
+            <div id="mapwrapper"></div>  
+        </section>
+
+        <footer class="white-wrapper">
+            <div class="container-fluid">
+                <div class="row text-center">
+                    <div class="col-md-12 wow fadeIn mb30" data-wow-delay="0.2s">
+                        <span class="copyright">Copyright 2019. Designed by DISTINCTIVE THEMES</span>
+                    </div>
+                    <div class="col-md-12">
+                        <ul class="list-inline social-links wow fadeIn" data-wow-delay="0.2s">
+                            <li>
+                                <a href="https://technext.github.io/thegrill/index.html#"><i class="fa fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://technext.github.io/thegrill/index.html#"><i class="fa fa-pinterest"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://technext.github.io/thegrill/index.html#"><i class="fa fa-dribbble"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://technext.github.io/thegrill/index.html#"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://technext.github.io/thegrill/index.html#"><i class="fa fa-behance"></i></a>
+                            </li>
+                            <li>
+                                <a href="https://technext.github.io/thegrill/index.html#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <div id="bottom-frame"></div>
+
+        <a href="https://technext.github.io/thegrill/index.html#" id="back-to-top"><i class="fa fa-long-arrow-up"></i></a>
+
+    </div>
+
+    <script src="./jquery.js.download"></script>
+    <script src="./bootstrap.min.js.download"></script>
+    <script src="./plugins.js.download"></script>
+    <script type="text/javascript" src="./js"></script>
+    <script src="./init.js.download"></script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+    <script type="text/javascript">
+    $(document).ready(function(){
+       'use strict';
+        jQuery('#headerwrap').backstretch([
+          "assets/img/bg/bg1.jpg",
+          "assets/img/bg/bg2.jpg",
+          "assets/img/bg/bg3.jpg",
+        ], {duration: 8000, fade: 500});
+    });
+    </script>
+
+
+
+
+</body></html>
